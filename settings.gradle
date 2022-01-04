@@ -2,3 +2,6 @@
 rootProject.name = 'holamundo'
 
 include 'application'
+
+include 'insfrastructure:entry-points:reactive-web'
+include 'hola'

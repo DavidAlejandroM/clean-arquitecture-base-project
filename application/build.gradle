@@ -2,4 +2,5 @@ apply plugin: 'org.springframework.boot'
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter'
+    implementation project(":insfrastructure:entry-points:reactive-web")
 }
